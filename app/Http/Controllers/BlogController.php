@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\blog;
 use Illuminate\Http\Request;
 
+
 class BlogController extends Controller
 {
     /**
@@ -15,6 +16,9 @@ class BlogController extends Controller
     public function index()
     {
         //
+        $blogs = blog::orderby('id', 'DESC')->take(3)->get();
+        $page = blog::paginate(3); //分页
+        return view('blog.index', compact('blogs', 'page'));
     }
 
     /**
@@ -22,15 +26,26 @@ class BlogController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
         //
+        $request->validate([
+            'title' => 'required',
+            'body' => 'required',
+        ]);
+
+        $postCreate = new blog;
+        $postCreate->title = $request->title;
+        $postCreate->body = $request->body;
+        $postCreate->save();
+
+        return $this->index();
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +56,7 @@ class BlogController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\blog  $blog
+     * @param  \App\blog $blog
      * @return \Illuminate\Http\Response
      */
     public function show(blog $blog)
@@ -50,9 +65,22 @@ class BlogController extends Controller
     }
 
     /**
+     * Display the find resource.
+     *
+     * @param  \App\blog $blog
+     * @return \Illuminate\Http\Response
+     */
+    public function find(Request $request)
+    {
+        $blogs = blog::where('title', 'like', '%' . $request->search . '%')->orwhere('body')->get();
+        $page = 'a';
+        return view('blog.index', compact('blogs', 'page'));
+    }
+
+    /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\blog  $blog
+     * @param  \App\blog $blog
      * @return \Illuminate\Http\Response
      */
     public function edit(blog $blog)
@@ -60,11 +88,12 @@ class BlogController extends Controller
         //
     }
 
+
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\blog  $blog
+     * @param  \Illuminate\Http\Request $request
+     * @param  \App\blog $blog
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, blog $blog)
@@ -75,7 +104,7 @@ class BlogController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\blog  $blog
+     * @param  \App\blog $blog
      * @return \Illuminate\Http\Response
      */
     public function destroy(blog $blog)

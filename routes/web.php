@@ -15,9 +15,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/blog', function () {
-    return view('blog.index');
+Route::prefix('blog')->group(function () {
+    Route::get('/', 'BlogController@index');
+    Route::get('/post',function(){
+        return view('blog.create');
+    });
+    Route::get('/{blog}', 'BlogController@show');
+    Route::post('/find','BlogController@find');
+    Route::post('/create', 'BlogController@create');
+    Route::post('/{blog}/store', 'BlogController@store');
+    Route::get('/{blog}/edit', 'BlogController@edit');
+    Route::post('/{blog}/update', 'BlogController@update');
+    Route::delete('/{blog}/delete', 'BlogController@destroy');
 });
+
 
 Auth::routes();
 
