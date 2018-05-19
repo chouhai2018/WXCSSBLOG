@@ -16,20 +16,21 @@
 
 <style>
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Oswald"
+        font-family: "微软雅黑"
     }
 
     body {
-        font-family: "Open Sans"
+        font-family: "微软雅黑"
     }
 </style>
+
 <body class="wx-light-grey">
 
 <!-- Navbar -->
 <div class="wx-top">
     <div class="wx-bar wx-black wx-card">
         <a class="wx-bar-item wx-button wx-padding-large wx-hide-medium wx-hide-large wx-right"
-           href="javascript:void(0)" onclick="myFunction('navDemo')" id="myBtn" title="Toggle Navigation Menu"><i
+           href="javascript:void(0)" onclick="myFunction('navDemo')" id="myClick"><i
                     class="fa fa-bars"></i></a>
         <a href="#" class="wx-bar-item wx-button wx-padding-large">主页</a>
         <a href="#" class="wx-bar-item wx-button wx-padding-large wx-hide-small">博文</a>
@@ -103,7 +104,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                                         class="fa fa-thumbs-up"></i> Like</b></button>
                     </p>
                     <p class="wx-right">
-                        <button class="wx-button wx-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies
+                        <button class="wx-button wx-black" onclick="myFunction('demo1')" id="myClick"><b>Replies
                                 &nbsp;</b> <span class="wx-tag wx-white">1</span></button>
                     </p>
                     <p class="wx-clear"></p>
@@ -242,9 +243,8 @@ and is wrapped around the whole page content, except for the footer in this exam
             <div class="wx-white wx-margin">
                 <img src="/images/avatar_girl2.jpg" alt="Jane" style="width:100%" class="wx-grayscale">
                 <div class="wx-container wx-black">
-                    <h4>My Name</h4>
-                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
-                        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                    <h4>关于我</h4>
+                    <p>WX CSS是一个我自己用的CSS,根据w3 css修改而得,WX CSS是免费的,随意去用,随意去修改,随意去发布</p>
                 </div>
             </div>
             <hr>
@@ -252,35 +252,35 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Posts -->
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Popular Posts</h4>
+                    <h4>最新发表文章</h4>
                 </div>
                 <ul class="wx-ul wx-hoverable wx-white">
                     <li class="wx-padding-16">
                         <img src="/images/avatar_smoke.jpg" alt="Image" class="wx-left wx-margin-right"
                              style="width:50px">
-                        <span class="wx-large">Denim</span>
+                        <span class="wx-large">王旭</span>
                         <br>
-                        <span>Sed mattis nunc</span>
+                        <span>wx css 最新用法</span>
                     </li>
                     <li class="wx-padding-16">
                         <img src="/images/bandmember.jpg" alt="Image" class="wx-left wx-margin-right"
                              style="width:50px">
-                        <span class="wx-large">Sweaters</span>
+                        <span class="wx-large">王旭</span>
                         <br>
-                        <span>Praes tinci sed</span>
+                        <span>wx css 最新用法</span>
                     </li>
                     <li class="wx-padding-16">
                         <img src="/images/workshop.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
-                        <span class="wx-large">Workshop</span>
+                        <span class="wx-large">王旭</span>
                         <br>
-                        <span>Ultricies congue</span>
+                        <span>wx css 最新用法</span>
                     </li>
                     <li class="wx-padding-16">
                         <img src="/images/avatar_smoke.jpg" alt="Image" class="wx-left wx-margin-right wx-sepia"
                              style="width:50px">
-                        <span class="wx-large">Trends</span>
+                        <span class="wx-large">王旭</span>
                         <br>
-                        <span>Lorem ipsum dipsum</span>
+                        <span>wx css 最新用法</span>
                     </li>
                 </ul>
             </div>
@@ -289,11 +289,11 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Advertising -->
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Advertise</h4>
+                    <h4>广告位</h4>
                 </div>
                 <div class="wx-container wx-white">
                     <div class="wx-container wx-display-container wx-light-grey wx-section" style="height:200px">
-                        <span class="wx-display-middle">Your AD Here</span>
+                        <span class="wx-display-middle">哇偶,我没广告哦</span>
                     </div>
                 </div>
             </div>
@@ -302,24 +302,26 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Tags -->
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Tags</h4>
+                    <h4>热度标签</h4>
                 </div>
-                <div class="wx-container wx-white">
+                <div class="wx-container wx-white" style="margin:15px">
                     <p>
-                        <span class="wx-tag wx-black wx-margin-bottom">Fashion</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">New York</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">London</span>
-                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">Hats</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Norway</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Sweaters</span>
-                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">Ideas</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Deals</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Accessories</span>
-                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">News</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Clothing</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Shopping</span>
-                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">Jeans</span> <span
-                                class="wx-tag wx-light-grey wx-small wx-margin-bottom">Trends</span>
+                        <span class="wx-tag wx-black wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
+                        <span class="wx-tag wx-light-grey wx-small wx-margin-bottom">WXCSS用法</span>
                     </p>
                 </div>
             </div>
@@ -328,9 +330,9 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Inspiration -->
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Inspiration</h4>
+                    <h4>最新图片</h4>
                 </div>
-                <div class="wx-row-padding wx-white">
+                <div class="wx-row-padding wx-white" style="margin:15px">
                     <div class="wx-col s6">
                         <p><img src="/images/jeans.jpg" alt="Jeans" style="width:100%"></p>
                         <p><img src="/images/team1.jpg" alt="Jeans" style="width:100%"></p>
@@ -346,7 +348,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Follow Me</h4>
+                    <h4>更多的我</h4>
                 </div>
                 <div class="wx-container wx-xlarge wx-padding">
                     <i class="fa fa-facebook-official wx-hover-opacity"></i>
@@ -362,14 +364,14 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Subscribe -->
             <div class="wx-white wx-margin">
                 <div class="wx-container wx-padding wx-black">
-                    <h4>Subscribe</h4>
+                    <h4>订阅</h4>
                 </div>
                 <div class="wx-container wx-white">
-                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <p>输入您的邮件,最新的文章将发送到您的邮箱</p>
                     <p><input class="wx-input wx-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
                     <p>
                         <button type="button" onclick="document.getElementById('subscribe').style.display='block'"
-                                class="wx-button wx-block wx-red">Subscribe
+                                class="wx-button wx-block wx-red">订阅
                         </button>
                     </p>
                 </div>
@@ -411,7 +413,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 
     // Toggle between hiding and showing blog replies/comments
-    document.getElementById("myBtn").click();
+    document.getElementById("myClick").click();
 
     function myFunction(id) {
         var x = document.getElementById(id);
@@ -426,8 +428,6 @@ and is wrapped around the whole page content, except for the footer in this exam
         x.style.fontWeight = "bold";
         x.innerHTML = "&#10003; Liked";
     }
-
-
 
 
 </script>
