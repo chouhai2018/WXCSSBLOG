@@ -33,7 +33,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="wx-col l8 s12">
             <!-- Blog entry -->
             <div class="wx-card-4 wx-margin wx-white">
-                <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+                <img src="/images/woods.jpg" alt="Nature" style="width:100%">
                 <div class="wx-container">
                     <h3><b>TITLE HEADING</b></h3>
                     <h5>Title description, <span class="wx-opacity">April 7, 2014</span></h5>
@@ -63,7 +63,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
             <!-- Blog entry -->
             <div class="wx-card-4 wx-margin wx-white">
-                <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+                <img src="/images/bridge.jpg" alt="Norway" style="width:100%">
                 <div class="wx-container">
                     <h3><b>BLOG ENTRY</b></h3>
                     <h5>Title description, <span class="wx-opacity">April 2, 2014</span></h5>
@@ -96,7 +96,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="wx-col l4">
             <!-- About Card -->
             <div class="wx-card wx-margin wx-margin-top">
-                <img src="/w3images/avatar_g.jpg" style="width:100%">
+                <img src="/images/avatar_g.jpg" style="width:100%">
                 <div class="wx-container wx-white">
                     <h4><b>My Name</b></h4>
                     <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
@@ -112,23 +112,23 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <ul class="wx-ul wx-hoverable wx-white">
                     <li class="wx-padding-16">
-                        <img src="/w3images/workshop.jpg" alt="Image" class="wx-left wx-margin-right"
+                        <img src="/images/workshop.jpg" alt="Image" class="wx-left wx-margin-right"
                              style="width:50px">
                         <span class="wx-large">Lorem</span><br>
                         <span>Sed mattis nunc</span>
                     </li>
                     <li class="wx-padding-16">
-                        <img src="/w3images/gondol.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
+                        <img src="/images/gondol.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
                         <span class="wx-large">Ipsum</span><br>
                         <span>Praes tinci sed</span>
                     </li>
                     <li class="wx-padding-16">
-                        <img src="/w3images/skies.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
+                        <img src="/images/skies.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
                         <span class="wx-large">Dorum</span><br>
                         <span>Ultricies congue</span>
                     </li>
                     <li class="wx-padding-16 wx-hide-medium wx-hide-small">
-                        <img src="/w3images/rock.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
+                        <img src="/images/rock.jpg" alt="Image" class="wx-left wx-margin-right" style="width:50px">
                         <span class="wx-large">Mingsum</span><br>
                         <span>Lorem ipsum dipsum</span>
                     </li>
