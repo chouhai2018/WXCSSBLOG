@@ -71,6 +71,8 @@ class BlogController extends Controller
     public function show(blog $blog)
     {
         //
+        $postShow=blog::find($blog->id);
+        return view('blog.show',compact('postShow'));
     }
 
     /**

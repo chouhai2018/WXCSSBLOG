@@ -24,7 +24,9 @@
                 <!-- Blog entry -->
                 @foreach($blogs as $blogs)
 
-                    <div class="wx-container wx-white wx-margin wx-padding-large wx-btn" style="padding: 0;width: 97%">
+                    <a href="/blog/{{ $blogs->id }}"
+                       class="wx-container wx-white wx-margin wx-padding-large wx-btn"
+                       style="text-decoration : none; padding: 0;width: 97%">
                         <div class="wx-center">
                             <h3>{{ $blogs->title }}</h3>
                             <h5>Title description, <span
@@ -63,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
 
                     <hr>
