@@ -35,7 +35,6 @@
             <div class="wx-center"><br>
                 <span onclick="document.getElementById('id02').style.display='none'"
                       class="wx-button wx-xlarge wx-hover-red wx-display-topright" title="Close Modal">&times;</span>
-                <span class="wx-text"><h3>博文搜索</h3></span>
             </div>
 
             <form class="wx-container" method="post" action="/blog/find">

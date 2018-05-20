@@ -33,7 +33,7 @@
         <a class="wx-bar-item wx-button wx-padding-large wx-hide-medium wx-hide-large wx-right"
            href="javascript:void(0)" onclick="myFunction('navDemo')" id="myClick"><i
                     class="fa fa-bars"></i></a>
-        <a href="#" class="wx-bar-item wx-button wx-padding-large">主页</a>
+        <a href="/blog" class="wx-bar-item wx-button wx-padding-large">主页</a>
         <a href="#" class="wx-bar-item wx-button wx-padding-large wx-hide-small">博文</a>
         <a href="#" class="wx-bar-item wx-button wx-padding-large wx-hide-small">图库</a>
         <a href="#" class="wx-bar-item wx-button wx-padding-large wx-hide-small">关于我</a>
