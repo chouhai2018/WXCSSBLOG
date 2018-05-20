@@ -46,11 +46,14 @@
             </div>
         </div>
 
-        <a href="javascript:void(0)" class="wx-padding-large wx-hover-red wx-hide-small wx-right"><i
-                    class="fa fa-search"></i></a>
-
         <!-- Trigger/Open the Modal -->
-        <button onclick="document.getElementById('id01').style.display='block'" class="wx-button wx-padding-large wx-hover-orange wx-hide-small wx-right wx-red"><i
+
+        <button onclick="document.getElementById('id02').style.display='block'"
+                class="wx-button wx-padding-large wx-hover-green wx-hide-small wx-right"><i
+                    class="fa fa-search"></i></button>
+
+        <button onclick="document.getElementById('id01').style.display='block'"
+                class="wx-button wx-padding-large wx-hover-orange wx-hide-small wx-right wx-red"><i
                     class="fa fa-plus-circle"> 新建</i></button>
     </div>
 </div>
@@ -99,15 +102,6 @@ and is wrapped around the whole page content, except for the footer in this exam
         x.innerHTML = "&#10003; Liked";
     }
 
-    // Get the modal
-    var modal = document.getElementById('id01');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
 
 </script>
 
