@@ -19,7 +19,7 @@ class BlogController extends Controller
         //
 
         $blogs = blog::orderby('id', 'DESC')->take(4)->get();
-        $page = blog::paginate(3); //分页
+        $page = blog::paginate(4); //分页
         return view('blog.index', compact('blogs', 'page'));
     }
 

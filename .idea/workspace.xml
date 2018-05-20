@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c5e8264-2693-4670-a6a3-b45de2c6181a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="414">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -375,7 +373,7 @@
       <workItem from="1526753885213" duration="744000" />
       <workItem from="1526754774860" duration="9616000" />
       <workItem from="1526767036878" duration="66000" />
-      <workItem from="1526767342225" duration="25416000" />
+      <workItem from="1526767342225" duration="25657000" />
     </task>
     <task id="LOCAL-00001" summary="添加wxcss和初始化数据">
       <created>1526754633318</created>
@@ -496,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526792280448</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加首页文章显示">
+      <created>1526794848298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526794848298</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36042000" />
+    <option name="totallyTimeSpent" value="36283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -542,7 +547,8 @@
     <MESSAGE value="添加数据库测试" />
     <MESSAGE value="修改首页" />
     <MESSAGE value="添加文件上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件上传" />
+    <MESSAGE value="添加首页文章显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加首页文章显示" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/_variables.scss">
@@ -830,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="414">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
