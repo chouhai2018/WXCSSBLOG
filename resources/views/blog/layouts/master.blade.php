@@ -44,8 +44,11 @@
                 <a href="#" class="wx-bar-item wx-button">站点设置</a>
             </div>
         </div>
+
         <a href="javascript:void(0)" class="wx-padding-large wx-hover-red wx-hide-small wx-right"><i
                     class="fa fa-search"></i></a>
+        <a href="javascript:void(0)" class="wx-padding-large wx-hover-orange wx-hide-small wx-right wx-red"><i
+                    class="fa fa-plus-circle"> 新建</i></a>
     </div>
 </div>
 
@@ -54,6 +57,7 @@
     <a href="#" class="wx-bar-item wx-button wx-padding-large">博文</a>
     <a href="#" class="wx-bar-item wx-button wx-padding-large">图库</a>
     <a href="#" class="wx-bar-item wx-button wx-padding-large">关于我</a>
+    <a href="#" class="wx-bar-item wx-button wx-padding-large">发博文</a>
 </div>
 
 

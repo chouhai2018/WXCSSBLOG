@@ -33,8 +33,7 @@
 
                     <div class="wx-justify">
 
-                        <img src="/images/girl_hat.jpg" alt="Girl Hat" style="hight:100%;width:100%"
-                             class="wx-card-2">
+                        <img src="/images/girl_hat.jpg" alt="Girl Hat" style="width:100%">
                         <div class="wx-text wx-center wx-margin">
                             <div class="wx-text" style="align-content: center"> {{ $blogs->body }}</div>
                         </div>
@@ -44,7 +43,8 @@
                                                 class="fa fa-thumbs-up"></i> Like</b></button>
                             </p>
                             <p class="wx-right">
-                                <button class="wx-button wx-black" onclick="myFunction( {{$blogs->id}} )" id="myClick"><b>Replies
+                                <button class="wx-button wx-black" onclick="myFunction( {{$blogs->id}} )" id="myClick">
+                                    <b>Replies
                                         &nbsp;</b> <span class="wx-tag wx-white">1</span></button>
                             </p>
                             <p class="wx-clear"></p>
@@ -176,7 +176,8 @@
                 <div class="wx-row-padding wx-white wx-margin">
                     <div class="wx-col s6">
 
-                        <p><img src="/images/jeans.jpg" class="wx-btn wx-ripple" alt="Jeans" style="width: 100%;padding: 0"></p>
+                        <p><img src="/images/jeans.jpg" class="wx-btn wx-ripple" alt="Jeans"
+                                style="width: 100%;padding: 0"></p>
 
                         <p><img src="/images/team1.jpg" alt="Jeans" style="width:100%"></p>
                     </div>
