@@ -40,7 +40,8 @@
         <div class="wx-dropdown-hover wx-hide-small">
             <button class="wx-padding-large wx-button" title="More">管理 <i class="fa fa-caret-down"></i></button>
             <div class="wx-dropdown-content wx-bar-block wx-card-4">
-                <a href="#" class="wx-bar-item wx-button" onclick="document.getElementById('id03').style.display='block'">文章管理</a>
+                <a href="#" class="wx-bar-item wx-button"
+                   onclick="document.getElementById('id03').style.display='block'">文章管理</a>
                 <a href="#" class="wx-bar-item wx-button">图库管理</a>
                 <a href="#" class="wx-bar-item wx-button">站点设置</a>
             </div>
@@ -69,9 +70,9 @@
 
 <!-- wx-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-    @yield('content')
-</div>
+
+@yield('content')
+
 
 <!-- Footer -->
 <footer class="wx-container wx-dark-grey" style="padding:32px">
@@ -80,7 +81,6 @@ and is wrapped around the whole page content, except for the footer in this exam
     <p>Make by wx.css</p>
 </footer>
 
-@include("blog.layouts.modal")
 
 <script>
 

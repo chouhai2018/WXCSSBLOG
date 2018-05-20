@@ -95,7 +95,10 @@ class BlogController extends Controller
     public function edit(blog $blog)
     {
         //
-        dd($blog);
+
+        $blogs=blog::find($blog->id);
+
+        return view('blog.update',compact('blogs'));
     }
 
 
@@ -109,6 +112,20 @@ class BlogController extends Controller
     public function update(Request $request, blog $blog)
     {
         //
+        $request->validate([
+            'title' => 'required',
+            'body' => 'required',
+            'pic' => 'required',
+        ]);
+        Storage::delete($blog->pic); //删除文件
+        $path = $request->file('pic')->store('public');
+        $postUpdate=blog::find($blog->id);
+        $postUpdate->title = $request->title;
+        $postUpdate->body = $request->body;
+        $postUpdate->pic = $path;
+        $postUpdate->save();
+
+        return $this->index();
     }
 
     /**
