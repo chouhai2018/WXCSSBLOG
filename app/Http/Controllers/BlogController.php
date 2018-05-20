@@ -84,8 +84,9 @@ class BlogController extends Controller
     public function find(Request $request)
     {
         $blogs = blog::where('title', 'like', '%' . $request->search . '%')->orwhere('body')->get();
+        $blogs1=$blogs;
         $page = 'a';
-        return view('blog.index', compact('blogs', 'page'));
+        return view('blog.index', compact('blogs', 'page','blogs1'));
     }
 
     /**
