@@ -22,6 +22,18 @@
                     <button class="wx-button  wx-block wx-green wx-section wx-padding" type="submit">发布</button>
 
                 </div>
+
+                @if ($errors->any())
+                    <hr>
+                    <div class="w3-panel w3-red">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
             </form>
 
             <div class="wx-container wx-border-top wx-padding-16 wx-light-grey">
