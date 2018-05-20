@@ -23,7 +23,7 @@
             <!-- Blog entry -->
             @foreach($blogs as $blogs)
 
-                <div class="wx-container wx-white wx-margin wx-padding-large">
+                <div class="wx-container wx-white wx-margin wx-padding-large wx-btn" style="padding: 0;width: 97%">
                     <div class="wx-center">
                         <h3>{{ $blogs->title }}</h3>
                         <h5>Title description, <span
@@ -36,7 +36,7 @@
                         <img src="/images/girl_hat.jpg" alt="Girl Hat" style="hight:100%;width:100%"
                              class="wx-card-2">
                         <div class="wx-text wx-center wx-margin">
-                            {{ $blogs->body }}
+                            <div class="wx-text" style="align-content: center"> {{ $blogs->body }}</div>
                         </div>
                         <div class="wx-margin">
                             <p class="wx-left">
@@ -44,11 +44,11 @@
                                                 class="fa fa-thumbs-up"></i> Like</b></button>
                             </p>
                             <p class="wx-right">
-                                <button class="wx-button wx-black" onclick="myFunction('demo1')" id="myClick"><b>Replies
+                                <button class="wx-button wx-black" onclick="myFunction( {{$blogs->id}} )" id="myClick"><b>Replies
                                         &nbsp;</b> <span class="wx-tag wx-white">1</span></button>
                             </p>
                             <p class="wx-clear"></p>
-                            <div class="wx-row wx-margin-bottom" id="demo1" style="display:none">
+                            <div class="wx-row wx-margin-bottom" id="{{$blogs->id}}" style="display:none">
                                 <hr>
                                 <div class="wx-col l2 m3">
                                     <img src="/images/avatar_smoke.jpg" style="width:90px;">
@@ -175,7 +175,9 @@
                 </div>
                 <div class="wx-row-padding wx-white wx-margin">
                     <div class="wx-col s6">
-                        <p><img src="/images/jeans.jpg" alt="Jeans" style="width:100%"></p>
+
+                        <p><img src="/images/jeans.jpg" class="wx-btn wx-ripple" alt="Jeans" style="width: 100%;padding: 0"></p>
+
                         <p><img src="/images/team1.jpg" alt="Jeans" style="width:100%"></p>
                     </div>
                     <div class="wx-col s6">
