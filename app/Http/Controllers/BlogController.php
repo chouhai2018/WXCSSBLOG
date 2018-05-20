@@ -20,7 +20,7 @@ class BlogController extends Controller
 
         $blogs = blog::orderby('id', 'DESC')->take(4)->get();
         $page = blog::paginate(4); //分页
-        return view('blog.index', compact('blogs', 'page'));
+        return view('blog.index',['blogs' => $blogs,'page' =>$page,'blogs1'=>$blogs ]);
     }
 
     /**
@@ -38,7 +38,6 @@ class BlogController extends Controller
         ]);
         if ($request->file('pic') != null) { //file('pic')取的是前台input id的名字,注意
             $path = $request->file('pic')->store('public');
-            $path=ltrim($path,'public');
             $postCreate = new blog;
             $postCreate->title = $request->title;
             $postCreate->body = $request->body;
@@ -96,6 +95,7 @@ class BlogController extends Controller
     public function edit(blog $blog)
     {
         //
+        dd($blog);
     }
 
 
@@ -120,5 +120,9 @@ class BlogController extends Controller
     public function destroy(blog $blog)
     {
         //
+        $flight=blog::find($blog->id);
+        $flight->delete(); //删除数据
+        Storage::delete($blog->pic); //删除文件
+        return $this->index();
     }
 }

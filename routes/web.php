@@ -26,7 +26,7 @@ Route::prefix('blog')->group(function () {
     Route::post('/{blog}/store', 'BlogController@store');
     Route::get('/{blog}/edit', 'BlogController@edit');
     Route::post('/{blog}/update', 'BlogController@update');
-    Route::delete('/{blog}/delete', 'BlogController@destroy');
+    Route::get('/{blog}/delete', 'BlogController@destroy');
 });
 
 

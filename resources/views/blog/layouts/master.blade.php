@@ -40,7 +40,7 @@
         <div class="wx-dropdown-hover wx-hide-small">
             <button class="wx-padding-large wx-button" title="More">管理 <i class="fa fa-caret-down"></i></button>
             <div class="wx-dropdown-content wx-bar-block wx-card-4">
-                <a href="#" class="wx-bar-item wx-button">文章管理</a>
+                <a href="#" class="wx-bar-item wx-button" onclick="document.getElementById('id03').style.display='block'">文章管理</a>
                 <a href="#" class="wx-bar-item wx-button">图库管理</a>
                 <a href="#" class="wx-bar-item wx-button">站点设置</a>
             </div>
