@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>WXCSS Blog</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,6 +13,7 @@
 <!-- Styles -->
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <style>
     h1, h2, h3, h4, h5, h6 {
@@ -47,8 +48,10 @@
 
         <a href="javascript:void(0)" class="wx-padding-large wx-hover-red wx-hide-small wx-right"><i
                     class="fa fa-search"></i></a>
-        <a href="javascript:void(0)" class="wx-padding-large wx-hover-orange wx-hide-small wx-right wx-red"><i
-                    class="fa fa-plus-circle"> 新建</i></a>
+
+        <!-- Trigger/Open the Modal -->
+        <button onclick="document.getElementById('id01').style.display='block'" class="wx-button wx-padding-large wx-hover-orange wx-hide-small wx-right wx-red"><i
+                    class="fa fa-plus-circle"> 新建</i></button>
     </div>
 </div>
 
@@ -74,6 +77,8 @@ and is wrapped around the whole page content, except for the footer in this exam
     <p>Make by wx.css</p>
 </footer>
 
+@include("blog.layouts.modal")
+
 <script>
 
 
@@ -94,8 +99,18 @@ and is wrapped around the whole page content, except for the footer in this exam
         x.innerHTML = "&#10003; Liked";
     }
 
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 
 </script>
+
 
 </body>
 </html>
