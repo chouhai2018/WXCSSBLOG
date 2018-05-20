@@ -33,7 +33,7 @@
 
                     <div class="wx-justify">
 
-                        <img src="/images/girl_hat.jpg" alt="Girl Hat" style="width:100%">
+                        <img src=" {{ asset('storage/' . $blogs->pic) }} " alt="" style="width:100%">
                         <div class="wx-text wx-center wx-margin">
                             <div class="wx-text" style="align-content: center"> {{ $blogs->body }}</div>
                         </div>

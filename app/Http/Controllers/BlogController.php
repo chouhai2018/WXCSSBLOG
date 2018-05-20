@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\UploadedFile;
 
 class BlogController extends Controller
@@ -16,7 +17,8 @@ class BlogController extends Controller
     public function index()
     {
         //
-        $blogs = blog::orderby('id', 'DESC')->take(3)->get();
+
+        $blogs = blog::orderby('id', 'DESC')->take(4)->get();
         $page = blog::paginate(3); //分页
         return view('blog.index', compact('blogs', 'page'));
     }
@@ -35,7 +37,8 @@ class BlogController extends Controller
             'pic' => 'required',
         ]);
         if ($request->file('pic') != null) { //file('pic')取的是前台input id的名字,注意
-            $path = $request->file('pic')->store('storage/app/public');
+            $path = $request->file('pic')->store('public');
+            $path=ltrim($path,'public');
             $postCreate = new blog;
             $postCreate->title = $request->title;
             $postCreate->body = $request->body;
