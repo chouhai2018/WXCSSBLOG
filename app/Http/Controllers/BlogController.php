@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\blog;
 use Illuminate\Http\Request;
-
+use Illuminate\Http\UploadedFile;
 
 class BlogController extends Controller
 {
@@ -32,13 +32,20 @@ class BlogController extends Controller
         $request->validate([
             'title' => 'required',
             'body' => 'required',
+            'pic' => 'required',
         ]);
-
-        $postCreate = new blog;
-        $postCreate->title = $request->title;
-        $postCreate->body = $request->body;
-        $postCreate->save();
-
+        if ($request->file('pic') != null) { //file('pic')取的是前台input id的名字,注意
+            $path = $request->file('pic')->store('storage/app/public');
+            $postCreate = new blog;
+            $postCreate->title = $request->title;
+            $postCreate->body = $request->body;
+            $postCreate->pic = $path;
+            $postCreate->save();
+        }
+        else
+        {
+            dd($request->file('pic'));
+        }
         return $this->index();
     }
 

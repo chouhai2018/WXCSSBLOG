@@ -7,7 +7,7 @@
                 <span class="wx-text"><h3>新建博文</h3></span>
             </div>
 
-            <form class="wx-container" method="post" action="/blog/create">
+            <form class="wx-container" method="post" action="/blog/create" enctype="multipart/form-data">
                 @csrf
                 <div class="wx-section">
                     <label><b>标题</b></label>
@@ -16,7 +16,11 @@
                     <label><b>内容</b></label>
                     <textarea class="wx-input wx-border wx-margin-bottom" style="height: 200px" name="body"
                               id="editor"></textarea>
-                    <button class="wx-button wx-block wx-green wx-section wx-padding" type="submit">发布</button>
+
+                    <input class="wx-input  wx-block wx-section wx-padding" type="file" name="pic" id="pic"
+                           accept=".jpg,.png"/>
+                    <button class="wx-button  wx-block wx-green wx-section wx-padding" type="submit">发布</button>
+
                 </div>
             </form>
 
