@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c5e8264-2693-4670-a6a3-b45de2c6181a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +19,8 @@
       <file leaf-file-name="modal.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blog/layouts/modal.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
+            <state relative-caret-position="1926">
               <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
-              <folding>
-                <element signature="e#381#388#1#HTML" expanded="true" />
-                <element signature="e#2438#2445#1#HTML" expanded="true" />
-                <element signature="e#3693#3700#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -41,14 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="73" column="17" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="17" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -57,12 +47,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#90#125#0#HTML" expanded="true" />
-                <element signature="e#158#215#0#HTML" expanded="true" />
-                <element signature="e#600#618#0#HTML" expanded="true" />
-              </folding>
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -72,10 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="22" selection-end-line="45" selection-end-column="11" />
-              <folding>
-                <element signature="e#81#121#0#HTML" expanded="true" />
-                <element signature="e#1046#1064#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -88,13 +69,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-              <folding>
-                <element signature="e#80#120#0#HTML" expanded="true" />
-                <element signature="e#1192#1224#0#HTML" expanded="true" />
-                <element signature="e#1513#1531#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -108,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blog/layouts/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="720">
               <caret line="40" column="91" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
             </state>
           </provider>
@@ -161,9 +137,9 @@
         <option value="$PROJECT_DIR$/resources/views/blog/update.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
       </list>
     </option>
   </component>
@@ -278,137 +254,6 @@
               <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
               <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXCSSBLOG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXCSSBLOG" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -462,7 +307,9 @@
       <workItem from="1526754774860" duration="9616000" />
       <workItem from="1526767036878" duration="66000" />
       <workItem from="1526767342225" duration="27422000" />
-      <workItem from="1526840965007" duration="11347000" />
+      <workItem from="1526840965007" duration="11763000" />
+      <workItem from="1526854581675" duration="17000" />
+      <workItem from="1526879929221" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="添加wxcss和初始化数据">
       <created>1526754633318</created>
@@ -632,11 +479,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526851622196</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加文章显示">
+      <created>1526852331176</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526852331176</updated>
+    </task>
+    <task id="LOCAL-00026" summary="添加文章显示">
+      <created>1526852522899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526852522899</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49395000" />
+    <option name="totallyTimeSpent" value="49835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -907,14 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/layouts/modal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="1926">
           <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
-          <folding>
-            <element signature="e#381#388#1#HTML" expanded="true" />
-            <element signature="e#2438#2445#1#HTML" expanded="true" />
-            <element signature="e#3693#3700#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,10 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="e#81#121#0#HTML" expanded="true" />
-            <element signature="e#1046#1064#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,44 +801,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="17" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#90#125#0#HTML" expanded="true" />
-            <element signature="e#158#215#0#HTML" expanded="true" />
-            <element signature="e#600#618#0#HTML" expanded="true" />
-          </folding>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#80#120#0#HTML" expanded="true" />
-            <element signature="e#1192#1224#0#HTML" expanded="true" />
-            <element signature="e#1513#1531#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="720">
           <caret line="40" column="91" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
         </state>
       </provider>
     </entry>
